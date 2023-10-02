@@ -1,0 +1,7 @@
+version: '1'
+
+services:
+  mts_backend:
+    image: 'mts:latest'
+    ports:
+      - '5500:5500'
